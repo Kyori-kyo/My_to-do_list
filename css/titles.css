@@ -1,0 +1,26 @@
+.main-title {
+    color: #FFF;
+	text-transform: uppercase;
+    text-shadow: 2px 2px 4px black;
+    margin: 30px 0px;
+	font-weight: bold;
+}
+
+.main-title h1 {
+    font-weight: 800;
+}
+
+.first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+.second {
+	color: #51DF70;
+
+}
+
+.third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
