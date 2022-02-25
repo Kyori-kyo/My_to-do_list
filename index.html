@@ -5,45 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/titles.css">
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="intro col-12">
-                <h1>work To-Dos</h1>
-            </div>
-            <div>
-                <div class="border1"></div>
-            </div>
-        </div>
-    </div>
+<body class="body">
+	<div class="container">
+		<div class="row">
+			<div class="main-title col-12">
+				<h1>Today's List</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p class="first">Enter text into the input field to add items to your list.</p>
+				<p class="second">Click the item to mark it as complete.</p>
+				<p class="third">Click the "X" to remove the item from your list.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="New item..." maxlength="27">
+				<button id="enter">ADD<i class="fas fa-pencil-alt"></i></button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
     
-    <div class="row">
-        <div class="helpText col-12">
-            <p id="first">Enter text into the input field to add items to your list.</p>
-            <p id="second">Click the item to mark it as complete</p>
-            <p id="third">Click the "X" to remove the item from your list.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-12">
-            <input id="userInput" type="text" placeholder="New item..." maxlength="27">
-            <button id="enter"><i class="fas fa-pencil-alt"></i></button>
-        </div>
-    </div>
-
-    <!-- Empty List -->
-    <div class="row">
-        <div class="listItems col-12">
-            <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
-            </ul>
-        </div>
-    </div>
-
-</div>
-<script type="text/javascript" src="script_method3.js"></script>
-</body>
-</html>
 </body>
 </html>
